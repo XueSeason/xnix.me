@@ -96,9 +96,9 @@
 }
 
 .react-toggle--focus .react-toggle-thumb {
-  box-shadow: 0px 0px 2px 3px #fe601c;
+  box-shadow: 0px 0px 2px 3px var(--orange);
 }
 
 .react-toggle:active .react-toggle-thumb {
-  box-shadow: 0px 0px 5px 5px #fe601c;
+  box-shadow: 0px 0px 5px 5px var(--orange);
 }
