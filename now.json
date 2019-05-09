@@ -19,6 +19,6 @@
   ],
   "alias": "xnix.me",
   "builds": [
-    { "use": "@now/static", "src": "package.json", "config": { "distDir": "public" } }
+    { "use": "@now/static-build", "src": "package.json", "config": { "distDir": "public" } }
   ]
 }
