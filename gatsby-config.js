@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Bitshift',
+    title: 'X-nix',
     author: 'XueSeason',
     description: 'XueSeason 的个人博客',
     siteUrl: 'https://xnix.me',
@@ -62,8 +62,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bitshift`,
-        short_name: `Bitshift`,
+        name: `X-nix`,
+        short_name: `X-nix`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#ffa7c4`,

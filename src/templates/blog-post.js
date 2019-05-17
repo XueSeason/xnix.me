@@ -61,7 +61,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              Bitshift
+              X-nix
             </Link>
           </h3>
           <Bio />

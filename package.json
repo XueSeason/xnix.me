@@ -1,7 +1,7 @@
 {
-  "name": "bitshift",
+  "name": "xnix",
   "private": true,
-  "description": "Bitshift",
+  "description": "X-nix",
   "version": "1.0.0",
   "author": "XueSeason <xueseason@icloud.com>",
   "dependencies": {
