@@ -1,4 +1,8 @@
-# 我的 React 沉思录
+---
+title: React 沉思录
+date: '2019-05-27'
+spoiler: ⚛︎
+---
 
 打开 [React](https://reactjs.org/) 的官网，我们可以看到这样一句话：
 
