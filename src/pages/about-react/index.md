@@ -30,7 +30,7 @@ React 是一个构建界面的库，即 UI 库。
 
 React 通过 Virtual DOM 很好地隐藏了各个平台的操作细节，通过构造 Virtual DOM Tree 将 UI 输出到不同端。**使用 Virtual DOM 不代表没有操作原生 DOM，而是交给了框架层，业务代码几乎不操作原生 DOM。**
 
-频繁地操作原生 DOM 会引发性能问题，React 需要做出一些权衡操作来达到性能的`[可观性](https://www.zhihu.com/question/31809713/answer/53544875)`，从而避免在开发过程中过多地关注性能优化的问题。
+频繁地操作原生 DOM 会引发性能问题，React 需要做出一些权衡操作来达到性能的[可观性](https://www.zhihu.com/question/31809713/answer/53544875)，从而避免在开发过程中过多地关注性能优化的问题。
 
 那么 React 是如何减少开发人员的性能上的思考负担？
 
@@ -117,7 +117,7 @@ commit 阶段会和过去一样调用以下函数：
 
 ## 设计原则
 
-React 对上层来说是可响应的（reactive），但是对于内部实现确实基于调度[（schedule）](https://reactjs.org/docs/design-principles.html#scheduling)。
+React 对上层来说是可响应的（reactive），但是对于内部实现却是基于调度[（schedule）](https://reactjs.org/docs/design-principles.html#scheduling)。
 
 - UI 的更新没必要所有都立即生效，否则会浪费资源，造成掉帧和降低用户体验。
 - 刷新数据的频率比帧率快时，将多个更新整合成批处理。
