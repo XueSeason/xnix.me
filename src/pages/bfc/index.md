@@ -1,4 +1,8 @@
-# BFC
+---
+title: BFC
+date: '2019-06-03'
+spoiler: 📜
+---
 
 ## 盒模型(box model)
 
